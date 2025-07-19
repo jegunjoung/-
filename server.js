@@ -32,5 +32,5 @@ app.post('/send-kakao', upload.single('photo'), (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`? Server running on port ${port}`);
 });
